@@ -83,7 +83,7 @@ div[id^="page-index"]
 
 /* WORKAROUND TO PREVENT HOVER */
 .notion-collection-list__item:hover {
-    background: #eae9dc;
+    background: #eae9dc !important;
   }
 
 .notion-collection-list__item .notion-property__title .notion-semantic-string > span {
