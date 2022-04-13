@@ -142,9 +142,8 @@ p {
 /* DECO ELEMENTS --> DASHES */
 
 .bg-red {
-  background: unset;
-   background: unset;
-   transform: rotate(359deg) !important;
+    background: unset !important;
+    transform: rotate(359deg) !important;
     writing-mode: vertical-lr;
     position: relative;
     bottom: -1px;
@@ -158,7 +157,7 @@ p {
  }
 
 .bg-blue {
-    background: unset;
+    background: unset !important;
     transform: rotate(339deg) !important;
     writing-mode: vertical-lr;
     position: relative;
