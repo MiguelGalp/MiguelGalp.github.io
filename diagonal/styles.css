@@ -177,8 +177,8 @@ p {
    .notion-heading {
      transform: rotate(339deg);
      position: relative;
-     left: 186px;
-     top: 36px;
+     left: 250px;
+     top: -44px;
      max-width: 250px;
   }
   div[id^="page-index"]
@@ -189,9 +189,15 @@ p {
     margin-bottom: 68px!important;
     margin-top: -36px!important;
     position: relative;
-    left: 112px;
+    left: 152px;
+    top: -65px;
     letter-spacing: 1.4px !important;
   }
+  
+  div[id^="page-index"]
+  .notion-column-list{ 
+    top: -10px;
+    }
   
   div[id^="page-index"]
   .super-content { 
