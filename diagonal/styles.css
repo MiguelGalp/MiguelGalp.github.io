@@ -177,9 +177,9 @@ p {
    .notion-heading {
      transform: rotate(339deg);
      position: relative;
-     left: 250px;
-     top: -44px;
-     max-width: 250px;
+     left: 153px;
+     top: -17px;
+     max-width: 280px;
   }
   div[id^="page-index"]
   .notion-header__title { 
@@ -189,8 +189,8 @@ p {
     margin-bottom: 68px!important;
     margin-top: -36px!important;
     position: relative;
-    left: 152px;
-    top: -65px;
+    left: 108px;
+    top: -92px;
     letter-spacing: 1.4px !important;
   }
   
