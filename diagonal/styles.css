@@ -1,16 +1,16 @@
 :root {
-  --column-spacing: 30px;
-  --color-bg-default: #cfb89c;
-    --color-pill-default:#cfb89c6e;
-    --color-pill-gray: #cfb89c6e;
-    --color-pill-brown: #cfb89c6e;
-    --color-pill-orange: #cfb89c6e;
-    --color-pill-yellow: #cfb89c6e;
-    --color-pill-green: #cfb89c6e;
-    --color-pill-blue: #cfb89c6e;
-    --color-pill-purple: #cfb89c6e;
-    --color-pill-pink: #cfb89c6e;
-    --color-pill-red: #cfb89c6e;
+  --column-spacing: 30px !important;
+  --color-bg-default: #cfb89c !important;
+    --color-pill-default:#cfb89c6e !important;
+    --color-pill-gray: #cfb89c6e  !important;
+    --color-pill-brown: #cfb89c6e !important;
+    --color-pill-orange: #cfb89c6e !important;
+    --color-pill-yellow: #cfb89c6e !important;
+    --color-pill-green: #cfb89c6e !important;
+    --color-pill-blue: #cfb89c6e !important;
+    --color-pill-purple: #cfb89c6e !important;
+    --color-pill-pink: #cfb89c6e !important;
+    --color-pill-red: #cfb89c6e !important;
  }
 
 .notion-toggle {
