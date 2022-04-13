@@ -42,6 +42,11 @@
  .super-navbar__item {
   font-weight: 900 !important;
  }
+
+.notion-property__title > span {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
  
  /* STYLING OF MAIN PAGE */
     
@@ -100,8 +105,8 @@ div[id^="page-index"]
  
 .notion-column:nth-of-type(even) {
     transform:rotate(339deg);
-    max-width: 340px;
-    min-width: 340px;
+    max-width: 370px;
+    min-width: 370px;
     position: relative;
     right: 50px;
     margin-top: 20px;
