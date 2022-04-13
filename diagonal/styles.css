@@ -280,7 +280,7 @@ and (min-device-width: 320px)
 and (max-device-width: 480px) {
    div[id^="page-index"]
   .notion-heading {
-    left: 5px;
-    max-width: 50px;
+    left: 50px;
+    max-width: 150px;
   }
 }
