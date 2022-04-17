@@ -295,3 +295,99 @@ and (max-device-width: 480px) {
     max-width: 150px;
   }
 }
+
+/* NEW DESIGN */
+
+.notion-property__title > span {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
+
+.notion-column-list {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  
+}
+
+.notion-column-list:before, .notion-column-list:after, .notion-column-list>:first-child:before, .notion-column-list>:first-child:after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: black;
+  /* or whatever colour */
+  border-style: solid;
+  /* or whatever style */
+  content: ' ';
+}
+
+.notion-column-list:before {
+  top: 0;
+  left: 0;
+  border-width: 0px 0 0 0px
+}
+
+.notion-column-list:after {
+  top: 0;
+  right: 0;
+  border-width: 0px 0px 0 0
+}
+
+
+
+.notion-column-list>:first-child:before {
+  top: -190px;
+  left: -20px;
+  border-width: 0 4px 4px 0;transform: rotate(200deg);
+}
+
+.notion-column-list>:first-child:after {
+  top: 29px;
+  left: 580px;
+  border-width: 0 0 4px 4px;
+  transform: rotate(200deg);
+}
+
+/*   */
+
+.notion-column:before, .notion-column:after, .notion-column:nth-of-type(even):before, .notion-column:nth-of-type(even):after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: black;
+  /* or whatever colour */
+  border-style: solid;
+  /* or whatever style */
+  content: ' ';
+}
+
+.notion-column:before {
+  top: 0;
+  left: 0;
+  border-width: 0px 0 0 0px
+}
+
+.notion-column:after {
+  top: 0;
+  right: 0;
+  border-width: 0px 0px 0 0
+}
+
+
+.notion-column:nth-of-type(even):before {
+  position: relative;
+  top: 400px;
+  left: 440px;
+  border-width: 0 4px 4px 0;
+  transform: rotate(20deg);
+}
+
+.notion-column:nth-of-type(even):after {
+  top: 180px;
+  left: -170px;
+  border-width: 0 0 4px 4px;
+  transform: rotate(21deg);
+}
+
+.super-content {
+  transform:scale(1.2);
+}
