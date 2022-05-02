@@ -126,13 +126,12 @@ div[id^="page-index"]
  .notion-property__title {
   background: #DEE2E6;
   padding: 6px !important;
-  margin: 7px;
+  margin: 7px !important;;
 }
 
 .notion-property__title > span {
   font-size: 1.2em !important;
-  font-weight: 600 !important;
-  padding-left: 10px;
+  padding-left: 10px !important;;
 }
 
 .notion-pill {
