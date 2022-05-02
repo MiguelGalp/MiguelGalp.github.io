@@ -3,7 +3,7 @@
   -moz-osx-font-smoothing: grayscale !important;
 }
     
-:root {
+::root {
   --opacidad: 1.1;
   --opacidad2: 1.1;
   --arriba: 0; 
