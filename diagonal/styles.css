@@ -263,12 +263,12 @@ p {
 @media (min-width:320px) and (max-width : 480px){
   
   .super-content {
-    padding: 25px;
+    padding: 25px !important;
     
   }
   
   .notion-column {
-    padding: 50px;
+    padding: 50px !important;
     margin-left: 34px !important;
   }
   
@@ -277,8 +277,8 @@ p {
   padding: 0 !important;
   margin: 0 !important;
   background: none !important;
-  display: block;
-  width: 65%;
+  display: block !important;
+  width: 65% !important;
   border: none !important;
   border-radius: 1px !important;
 }
@@ -291,47 +291,47 @@ p {
   font-weight: 700 !important;
   padding: 0px !important;
   margin-top: -20px !important;
-  margin-bottom: 25px;
-  z-index: -1; 
+  margin-bottom: 25px !important;
+  z-index: -1 !important; 
   text-decoration: none !important;
   letter-spacing: -8px !important;
 }
 
  .notion-property__title {
    padding: 5px !important;
-   font-size: 1.27rem;
-   border-radius: 3px;
+   font-size: 1.27rem !important;
+   border-radius: 3px !important;
 }
 
 .notion-property__title > span > span {
-   width: 250px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+   width: 250px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 .notion-pill {
      padding: 18px 40px !important;
-     width: 80%;
-     border-radius: 3px;
+     width: 80% !important;
+     border-radius: 3px !important;
   }
 
   .notion-column:nth-of-type(odd) {
-  position: relative;   
-  max-width: 590px;
-  min-width: 590px;
-  left: 90px;
-  top: 590px;
-  opacity: 1;
+  position: relative !important;   
+  max-width: 590px !important;
+  min-width: 590px !important;
+  left: 90px !important;
+  top: 590px !important;
+  opacity: 1 !important;
 }
 
   
   .notion-column:nth-of-type(even) {
-  position: relative;   
-  max-width: 590px;
-  min-width: 590px;
-  left: 90px;
-  bottom: 590px
+  position: relative !important;   
+  max-width: 590px !important;
+  min-width: 590px !important;
+  left: 90px !important;
+  bottom: 590px !important;
 }
 
 .notion-image {
