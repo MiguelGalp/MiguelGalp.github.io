@@ -8,6 +8,8 @@
   --boton: 7px;
   --column-spacing: 30px !important;
   --color-bg-default: #e9ecef !important;
+   /*WORKAROUND HOVER EFFECT UNSET */
+  --color-border-default: #ced4da !important
  }
  
 
