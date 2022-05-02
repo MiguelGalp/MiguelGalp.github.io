@@ -395,8 +395,8 @@ p {
 [data-theme="light"], :root {
   --opacidad: 1.08 !important;
   --opacidad2: 1.08 !important;
-  --arriba: 296px;
-  --abajo: 296px;
+  --arriba: 256px;
+  --abajo: 286px;
   --boton: 7px;
 }
 
@@ -404,7 +404,7 @@ p {
   --opacidad: 1.1 !important;
   --opacidad2: 1.1 !important;
   --arriba: 0;
-  --abajo: 0;
+  --abajo: 20px;
   --boton: -82px;
 }
 
