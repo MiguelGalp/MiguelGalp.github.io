@@ -271,6 +271,10 @@ p {
     padding: 50px !important;
     margin-left: 34px !important;
   }
+    
+  .notion-column-list {
+    margin-left: 40px !important;
+  }
   
 .notion-collection-list__item {
   flex-direction: column !important;
