@@ -68,6 +68,10 @@
   font-weight: 900 !important;
  }
 
+.super-navbar__logo-text {
+  color: #212529; !important;
+ }
+
 .notion-link {
   color: #e9ecef !important;
  }
