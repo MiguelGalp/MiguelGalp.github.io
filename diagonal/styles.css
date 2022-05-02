@@ -56,8 +56,8 @@ observer.observe(document, {attributes: false, childList: true, characterData: f
 <style>
 
 :root {
-  --opacidad: none;
-  --opacidad2: none;
+  --opacidad: 1.1;
+  --opacidad2: 1.1;
   --arriba: 0; 
   --abajo: 0;
   --boton: 7px;
@@ -459,16 +459,16 @@ p {
 /* SWITCH LANGUAGE */
 
 [data-theme="light"], :root {
-  --opacidad: none;
-  --opacidad2: 1.1;
+  --opacidad: 1.08 !important;
+  --opacidad2: 1.08 !important;
   --arriba: 296px;
   --abajo: 296px;
   --boton: 7px;
 }
 
 [data-theme="dark"] {
-  --opacidad: 1.1;
-  --opacidad2: none;
+  --opacidad: 1.1 !important;
+  --opacidad2: 1.1 !important;
   --arriba: 0;
   --abajo: 0;
   --boton: -82px;
@@ -502,6 +502,9 @@ p {
     margin-bottom: -5px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   }
+  
+
+  
   
 </style>
   
