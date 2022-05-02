@@ -1,8 +1,8 @@
-
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
     
-
-
-
 :root {
   --opacidad: 1.1;
   --opacidad2: 1.1;
