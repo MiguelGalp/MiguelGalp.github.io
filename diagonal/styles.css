@@ -154,7 +154,6 @@ div[id^="page-index"]
 
 .notion-collection-list {
   border: none !important;
-  overflow: hidden !important;
  }
  
 .notion-collection-list__item {
