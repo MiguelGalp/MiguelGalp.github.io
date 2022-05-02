@@ -141,7 +141,7 @@ div[id^="page-index"]
  }
  
 .notion-collection-list__item-property {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 9.5rem;
     font-weight: 700;
     position: relative;
