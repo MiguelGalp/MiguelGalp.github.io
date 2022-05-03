@@ -414,8 +414,8 @@ p {
 }
 
 [data-theme="dark"] {
-  --opacidad: 1 !important;
-  --opacidad2: 1 !important;
+  --opacidad: 0.98 !important;
+  --opacidad2: 0.98 !important;
   --arriba: 0;
   --abajo: 20px;
   --boton: -82px;
