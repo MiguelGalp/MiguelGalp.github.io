@@ -1,8 +1,8 @@
 
     
 :root {
-  --opacidad: 1.1;
-  --opacidad2: 1.1;
+  --opacidad: 1;
+  --opacidad2: 1;
   --arriba: 0; 
   --abajo: 0;
   --boton: 7px;
@@ -406,16 +406,16 @@ p {
 /* SWITCH LANGUAGE */
 
 [data-theme="light"], :root {
-  --opacidad: 1.08 !important;
-  --opacidad2: 1.08 !important;
+  --opacidad: 0.98 !important;
+  --opacidad2: 0.98 !important;
   --arriba: 256px;
   --abajo: 286px;
   --boton: 7px;
 }
 
 [data-theme="dark"] {
-  --opacidad: 1.1 !important;
-  --opacidad2: 1.1 !important;
+  --opacidad: 1 !important;
+  --opacidad2: 1 !important;
   --arriba: 0;
   --abajo: 20px;
   --boton: -82px;
