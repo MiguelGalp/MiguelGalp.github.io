@@ -134,6 +134,11 @@ div[id^="page-index"]
   padding-left: 10px !important;;
 }
 
+.notion-semantic-string {
+    font-weight: 500;
+    font-size: 1.1rem !important;
+}
+
 .notion-pill {
   padding: 13px 40px !important;
  }
