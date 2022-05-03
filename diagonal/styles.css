@@ -137,8 +137,9 @@ div[id^="page-index"]
 
 .notion-semantic-string {
     font-weight: 500;
-    font-size: 1.1rem !important;
-}
+    font-size: 1rem !important;
+    letter-spacing: 1px !important;
+   }
 
 .notion-pill {
   padding: 13px 40px !important;
