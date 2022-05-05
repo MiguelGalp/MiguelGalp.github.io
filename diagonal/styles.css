@@ -99,7 +99,7 @@ div[id^="page-index"]
   top: 25%;
   left: 45%;
   -webkit-font-smoothing: antialiased;
-  transform: translate3d(-50%, -10%, 0);
+  transform: translate3d(-50%, 0, 0);
 }
 
 .notion-toggle {
