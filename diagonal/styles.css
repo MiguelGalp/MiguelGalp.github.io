@@ -96,7 +96,7 @@ div[id^="page-index"]
 div[id^="page-index"]
 .max-width {
   position: absolute;
-  top: 25%;
+  top: 15%;
   left: 45%;
   -webkit-font-smoothing: antialiased;
   transform: translate3d(-50%, 0, 0);
