@@ -72,6 +72,11 @@
   color: #212529; !important;
  }
 
+div[id^="page-index"]
+.notion-link {
+  color: #e9ecef !important;
+ }
+
 /* "HERO" */
 
 div[id^="page-index"]
