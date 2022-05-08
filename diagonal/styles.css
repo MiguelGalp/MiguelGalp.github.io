@@ -72,10 +72,19 @@
   color: #212529; !important;
  }
 
-.notion-link {
-  color: #e9ecef !important;
- }
+/* "HERO" */
 
+div[id^="page-index"]
+.notion-heading {
+  display: block !important;
+}
+
+div[id^="page-index"]
+.notion-heading > .notion-semantic-string > span {
+  display: block !important;
+  font-size: 1.2em;
+  line-height: 18px !important;
+}
 
 /* LAYOUT */
 
@@ -184,10 +193,12 @@ div[id^="page-index"]
 
 /* ATTACK THE COLUMNS */
 .notion-column-list {
+  margin-top: -3vh !important;
   position: relative;
   flex-direction: column;
   align-items: center;
 }
+
  
 .notion-column:nth-of-type(even) {
   position: relative;   
