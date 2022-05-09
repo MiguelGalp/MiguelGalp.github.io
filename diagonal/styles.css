@@ -7,10 +7,11 @@
   --abajo: 0;
   --boton: 7px;
   --column-spacing: 30px !important;
-  --color-bg-default: #ced4da !important;
+  --color-bg-default: #adb5bd !important;
    /*WORKAROUND HOVER EFFECT UNSET */
-  --color-border-default: #ced4da !important
+  --color-border-default: #adb5bd !important
  }
+ 
  
 /* NO SCROLL BAR */
 
