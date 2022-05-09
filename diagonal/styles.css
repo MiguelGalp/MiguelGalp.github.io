@@ -128,8 +128,6 @@ div[id^="page-index"]
   max-width: 722px;
  }
 
-
-
 /* STYLING OF MAIN PAGE VIA */
 /* POSTS TITLES */
 /* POSTS PROPS */
@@ -186,7 +184,6 @@ div[id^="page-index"]
   text-decoration: none;
   position: relative;
 }
-
 
 .notion-collection-list__item .notion-property__title .notion-semantic-string > span {
     border-bottom: none !important;
@@ -354,7 +351,7 @@ p {
   max-width: 590px !important;
   min-width: 590px !important;
   left: 90px !important;
-  top: 590px !important;
+  top: 510px !important;
   opacity: 1 !important;
 }
 
