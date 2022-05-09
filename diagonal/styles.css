@@ -76,9 +76,9 @@ div[id^="page-index"]
 div[id^="page-index"]
 .notion-header__title {
   display: block !important;
-  margin-top: -1vh;
+  margin-top: 1vh;
   position: relative;
-  top: -80px;
+  top: -60px;
   left: 300px;
   background: #6c757d;
   color: #f8f9fa;
@@ -98,7 +98,7 @@ div[id^="page-index"] h1 {
 
 .super-content {
   position: relative;
-  margin-top: 5vh !important;
+  margin-top: 10vh !important;
   z-index: -1 !important;
 }
 
