@@ -318,6 +318,21 @@ div[id^="page-index"] h1 {
     padding: 25px !important;
     
   }
+    
+div[id^="page-index"]
+.notion-header__title {
+  display: block !important;
+  position: relative;
+  top: 10px !important;
+  left: 105px;
+  background: #6c757d;
+  color: #f8f9fa;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0px 10px 0px 10px;
+  letter-spacing: 0.6px;
+  opacity: 0.5;
+}
   
   .notion-column {
     padding: 50px !important;
