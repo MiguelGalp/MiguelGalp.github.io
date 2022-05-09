@@ -87,7 +87,6 @@ div[id^="page-index"]
   font-size: 1.3rem;
   padding: 20px 20px 10px 20px;
   margin-bottom: -5px !important;
-  z-index: 1 !important;
   letter-spacing: 0.6px;
   text-decoration: underline;
   opacity: 0.5;
