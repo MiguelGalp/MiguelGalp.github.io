@@ -100,7 +100,6 @@ div[id^="page-index"] h1 {
 .super-content {
   position: relative;
   margin-top: 10vh !important;
-  z-index: -1 !important;
 }
 
 div[id^="page-index"]
