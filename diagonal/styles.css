@@ -80,7 +80,7 @@ div[id^="page-index"]
   display: block !important;
   margin-top: -2vh;
   position: relative;
-  top: -50px;
+  top: -66px;
   left: 300px;
   background: #6c757d;
   color: #f8f9fa;
@@ -99,7 +99,7 @@ div[id^="page-index"] h1 {
 
 .super-content {
   position: relative;
-  margin-top: 11vh !important;
+  margin-top: 8vh !important;
 }
 
 div[id^="page-index"]
