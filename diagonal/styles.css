@@ -75,30 +75,36 @@ div[id^="page-index"]
   color: #e9ecef !important;
  }
 /* "HERO" */
+
+div[id^="page-index"]
+.notion-header__title {
+  position: relative;
+}
+
 div[id^="page-index"]
 .notion-header__title {
   display: block !important;
-  margin-top: -2vh;
   position: relative;
-  top: -74px;
-  left: 300px;
+  top: 20px !important;
+  left: 318px;
   background: #6c757d;
   color: #f8f9fa;
-  border-radius: 8px;
-  font-size: 1.3rem;
-  padding: 20px 30px 10px 26px;
-  margin-bottom: -5px !important;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0px 15px 0px 15px;
   letter-spacing: 0.6px;
   opacity: 0.5;
 }
 
 div[id^="page-index"] h1 {
-  line-height: 100px;
+  line-height: 45px;
+  position: relative;
+  top: 2px !important;
 }
 
 .super-content {
   position: relative;
-  margin-top: 8vh !important;
+  margin-top: 6vh !important;
 }
 
 div[id^="page-index"]
