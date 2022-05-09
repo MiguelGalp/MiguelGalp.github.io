@@ -259,6 +259,11 @@ p {
   opacity: 1;
 }
 
+  div[id^="page-index"]
+.notion-header__title {
+  left: 255px !important;
+}
+
 #hola {
   opacity: 0 !important;
 }
