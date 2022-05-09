@@ -72,25 +72,34 @@ div[id^="page-index"]
 .notion-link {
   color: #e9ecef !important;
  }
-
-/* "HERO" 
-
+/* "HERO" */
 div[id^="page-index"]
-.notion-heading {
+.notion-header__title {
   display: block !important;
+  margin-top: -2vh;
+  position: relative;
+  top: -60px;
+  left: 300px;
+  background: #6c757d;
+  color: #f8f9fa;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: -5px !important;
+  z-index: 1 !important;
+  letter-spacing: 0.6px;
+  text-decoration: underline;
+  opacity: 0.5;
 }
 
-div[id^="page-index"]
-.notion-heading > .notion-semantic-string > span {
-  display: block !important;
-  font-size: 1.2em;
-  line-height: 18px !important;
+div[id^="page-index"] h1 {
+  line-height: 100px;
 }
-*/
-/* LAYOUT */
 
 .super-content {
   position: relative;
+  margin-top: 11vh !important;
+  z-index: -1 !important;
 }
 
 div[id^="page-index"]
