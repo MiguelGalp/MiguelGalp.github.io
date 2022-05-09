@@ -76,7 +76,7 @@ div[id^="page-index"]
 div[id^="page-index"]
 .notion-header__title {
   display: block !important;
-  margin-top: -2vh;
+  margin-top: -1vh;
   position: relative;
   top: -60px;
   left: 300px;
