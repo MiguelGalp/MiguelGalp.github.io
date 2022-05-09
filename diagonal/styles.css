@@ -308,6 +308,22 @@ div[id^="page-index"] h1 {
   position: relative;
   top: 2px !important;
 }
+    div[id^="page-index"]
+.notion-semantic-string {
+    font-weight: 700;
+    font-size: 1.2rem !important;
+    letter-spacing: 0.9px !important;
+   }
+   
+.notion-collection-list__item-property {
+    text-decoration: none;
+    font-size: 7.3rem;
+    font-weight: 900;
+    position: relative;
+    left: 30px;
+    letter-spacing: -5px;
+    color: #212529 !important;
+}
 }
 
 
