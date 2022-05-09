@@ -246,7 +246,7 @@ p {
 
 /* TABLET ADAPT 1 + LANDSCAPE IPHONE X*/
 
-@media (min-width:696px) and (max-width : 960px) {
+@media (min-width:696px) and (max-width : 1024px) {
   
   div[id^="page-index"]
   .notion-column-list{ 
