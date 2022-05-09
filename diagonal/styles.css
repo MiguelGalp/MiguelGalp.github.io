@@ -160,11 +160,12 @@ div[id^="page-index"]
  
 .notion-collection-list__item-property {
     text-decoration: none;
-    font-size: 9.5rem;
-    font-weight: 700;
+    font-size: 8.8rem;
+    font-weight: 900;
     position: relative;
     left: 30px;
     letter-spacing: -5px;
+    color: #212529 !important;
 }
 
 .notion-collection-list {
