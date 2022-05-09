@@ -238,15 +238,6 @@ p {
    font-size: 1.3rem;
   }
 
-/* EXTRA WIDTH ADAPT */
-
-@media (min-width:1381px) {
-  .notion-image{
-  left: -20vw !important;
-  }
-}
-
-
 /* TABLET ADAPT 1 + LANDSCAPE IPHONE X*/
 
 @media (min-width:696px) and (max-width : 960px) {
@@ -319,8 +310,6 @@ p {
 
 .notion-collection-list__item-property 
 { 
-
-  
   font-size: 14.5rem !important;
   font-weight: 700 !important;
   padding: 0px !important;
