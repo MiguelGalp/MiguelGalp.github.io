@@ -77,7 +77,7 @@ div[id^="page-index"]
   color: #e9ecef !important;
  }
 
-/* "HERO" */
+/* "HERO" 
 
 div[id^="page-index"]
 .notion-heading {
@@ -90,7 +90,7 @@ div[id^="page-index"]
   font-size: 1.2em;
   line-height: 18px !important;
 }
-
+*/
 /* LAYOUT */
 
 .super-content {
