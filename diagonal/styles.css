@@ -268,7 +268,7 @@ p {
   
   div[id^="page-index"]
   .notion-column-list{ 
-    left: -50px;
+    left: -5px;
     margin-top: 5vh;
   }
    .notion-column:nth-of-type(odd) {
