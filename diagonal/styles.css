@@ -166,6 +166,7 @@ div[id^="page-index"]
 
 .notion-pill {
   padding: 13px 40px !important;
+  color: black !important;
  }
  
 .notion-collection-list__item-property {
