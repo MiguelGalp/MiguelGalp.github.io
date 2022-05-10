@@ -110,11 +110,6 @@ div[id^="page-index"]
 .super-content {
   position: relative;
   margin-top: 6vh !important;
-  padding-bottom: 40px;
-  left: 77px;
-  border-top: 4px solid black;
-  border-left: 4px solid black;
-  border-bottom: 4px solid black;
 }
 
 div[id^="page-index"]
