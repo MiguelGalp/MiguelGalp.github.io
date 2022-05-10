@@ -83,7 +83,6 @@ div[id^="page-index"]
 
 div[id^="page-index"]
 .notion-header__title {
-  position: relative;
   top: 20px !important;
   left: 318px;
   background: #6c757d;
