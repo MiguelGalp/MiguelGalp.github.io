@@ -83,8 +83,8 @@ div[id^="page-index"]
 
 div[id^="page-index"]
 .notion-header__title {
-  top: 30px !important;
-  left: 302px !important;
+  top: 46px !important;
+  left: 316px !important;
   background: -webkit-linear-gradient(110deg, #B791B1 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #BBA39D 70%, #9E9BC4 70%) !important;
   background: -o-linear-gradient(110deg, #BE919C 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #BE919C 70%, #9E9BC4 70%) !important;
   background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #BE919C 70%, #9E9BC4 70%) !important;
@@ -208,7 +208,7 @@ div[id^="page-index"]
 
 /* ATTACK THE COLUMNS */
 .notion-column-list {
-  margin-top: -3vh !important;
+  margin-top: -27px !important;
   position: relative !important;
   flex-direction: column;
   align-items: center;
