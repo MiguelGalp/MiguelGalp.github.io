@@ -213,19 +213,6 @@ div[id^="page-index"]
   flex-direction: column;
   align-items: center;
 }
-
-.notion-column-list:before, .notion-column-list:after, .notion-column-list>first-child:before, .notion-column-list>first-child:after {
-    position:absolute !important; 
-    content:' ';
-    border-color:black; 
-    border-style:solid; 
-}
-
-.notion-column-list:before {top:0;left:0;border-width: 0px 0px 0px 0px}
-.notion-column-list:after {top:0;right:0;border-width: 20px 4px 10px 0}
-.notion-column-list>first-child:before {bottom:0;right:0;border-width: 10px 10px 10px 10px}
-.notion-column-list>first-child:after {bottom:0;left:0;border-width: 10px 10px 10px 10px}
-
  
 .notion-column:nth-of-type(even) {
   position: relative;   
