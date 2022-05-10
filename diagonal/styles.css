@@ -85,7 +85,12 @@ div[id^="page-index"]
 .notion-header__title {
   top: 30px !important;
   left: 302px !important;
-  background: #212529;
+  background: -webkit-linear-gradient(110deg, #B791B1 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #BBA39D 70%, #9E9BC4 70%) !important;
+  background: -o-linear-gradient(110deg, #BE919C 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #BE919C 70%, #9E9BC4 70%) !important;
+  background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #BE919C 70%, #9E9BC4 70%) !important;
+  background: linear-gradient(110deg, #8EACAD 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #BE919C 70%, #9E9BC4 70%) !important;
+  font-size: 1.3rem !important;
+  font-weigth: 700 !important;
   color: #f8f9fa;
   border-radius: 2px !important;
   font-size: 1.6rem;
@@ -95,7 +100,6 @@ div[id^="page-index"]
   min-height: unset !important;
   letter-spacing: 0.3px;
   opacity: 0.6;
-  font-weight: 500 !important;
   padding-top: 1px !important;
   padding-right: 10px !important;
   padding-bottom: 6px !important;
