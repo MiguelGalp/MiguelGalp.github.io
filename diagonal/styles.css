@@ -351,15 +351,15 @@ div[id^="page-index"] h1 {
   
   .super-content {
     padding: 25px !important;
-    
+    margin-top: -3vh !important;
   }
     
 div[id^="page-index"]
 .notion-header__title {
   display: block !important;
   position: relative;
-  top: 40px !important;
-  left: 110px;
+  top: -21px !important;
+  left: 107px !important;
   background: #6c757d;
   color: #f8f9fa;
   border-radius: 5px;
@@ -376,7 +376,13 @@ div[id^="page-index"]
     
   .notion-column-list {
     margin-left: 40px !important;
+    border: none !important;
   }
+    
+ .notion-collection-list__item:first-child {
+    border: 4px solid black !important;
+    padding: 10px !important;
+}
   
 .notion-collection-list__item {
   flex-direction: column !important;
