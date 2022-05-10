@@ -188,6 +188,10 @@ div[id^="page-index"]
   overflow: hidden !important;
  }
 
+.notion-column-list {
+    position: relative;
+}
+
 .notion-column-list:before, .notion-column-list:after, .notion-column-list>first-child:before, .notion-column-list>first-child:after {
     position:absolute; 
     content:' ';
