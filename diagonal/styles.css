@@ -83,16 +83,16 @@ div[id^="page-index"]
 
 div[id^="page-index"]
 .notion-header__title {
-  top: 20px !important;
-  left: 318px;
+  top: 30px !important;
+  left: 245px !important;
   background: #6c757d;
   color: #f8f9fa;
-  border-radius: 5px;
-  font-size: 1.2rem;
+  border-radius: 2px;
+  font-size: 2.1rem;
   padding: unset !important;
   margin: unset !important;
   min-height: unset !important;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.3px;
   opacity: 0.5;
 }
 
