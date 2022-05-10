@@ -212,6 +212,16 @@ div[id^="page-index"]
   position: relative !important;
   flex-direction: column;
   align-items: center;
+  border-top-color: initial;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-bottom-color: initial;
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-left-color: initial;
+  border-left-style: solid;
+  border-left-width: 8px;
+  padding-bottom: 40px;
 }
  
 .notion-column:nth-of-type(even) {
