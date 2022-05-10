@@ -110,6 +110,11 @@ div[id^="page-index"]
 .super-content {
   position: relative;
   margin-top: 6vh !important;
+  padding-bottom: 40px;
+  left: 77px;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 div[id^="page-index"]
@@ -182,6 +187,18 @@ div[id^="page-index"]
   border: none !important;
   overflow: hidden !important;
  }
+
+.notion-column-list:before, .notion-column-list:after, .notion-column-list>first-child:before, .notion-column-list>first-child:after {
+    position:absolute; 
+    content:' ';
+    border-color:black; 
+    border-style:solid; 
+}
+
+.notion-column-list:before {top:0;left:0;border-width: 0px 0px 0px 0px}
+.notion-column-list:after {top:0;right:0;border-width: 20px 4px 10px 0}
+.notion-column-list>first-child:before {bottom:0;right:0;border-width: 10px 10px 10px 10px}
+.notion-column-list>first-child:after {bottom:0;left:0;border-width: 10px 10px 10px 10px}
  
 .notion-collection-list__item {
   padding: 20px;
