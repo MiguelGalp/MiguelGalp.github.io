@@ -83,7 +83,7 @@ div[id^="page-index"]
 
 div[id^="page-index"]
 .notion-header__title {
-  top: -18px !important;
+  top: -3px !important;
   left: 376px !important;
   background: -webkit-linear-gradient(110deg, #B791B1 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #BBA39D 70%, #9E9BC4 70%) !important;
   background: -o-linear-gradient(110deg, #BE919C 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #BE919C 70%, #9E9BC4 70%) !important;
