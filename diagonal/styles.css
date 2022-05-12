@@ -136,6 +136,7 @@ div[id^="page-index"]
   letter-spacing: -0.1px;
   color: black !important;
   text-shadow: 0px 1px currentColor !important;
+  font-weight: 300 !important;
 }
 
 .bg-brown {
@@ -199,12 +200,14 @@ div[id^="page-index"]
 
 .notion-property__title > span {
   
-  padding-left: 10px !important;;
+  padding-left: 10px !important;
 }
 
 div[id^="page-index"]
 .notion-semantic-string {
-    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
     font-size: 1.1rem !important;
     letter-spacing: 1px !important;
    }
