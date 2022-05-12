@@ -121,10 +121,16 @@ div[id^="page-index"]
   margin-top: 6vh !important;
 }
 
+/*
 div[id^="page-index"]
 .notion-heading {
   display: none !important;
 }
+div[id^="page-index"]
+.notion-header__title-wrapper {
+  display: none !important;
+}
+*/
 
 div[id^="page-index"]
 .max-width {
