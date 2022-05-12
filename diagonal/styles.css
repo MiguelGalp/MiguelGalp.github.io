@@ -552,7 +552,7 @@ div[id^="page-index"]
 [data-theme="dark"] {
   --opacidad: 1 !important;
   --opacidad2: 1 !important;
-  --arriba: 0;
+  --arriba: -10px;
   --abajo: 55px;
   --boton: -82px;
 }
