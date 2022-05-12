@@ -227,15 +227,6 @@ div[id^="page-index"]
   position: relative !important;
   flex-direction: column;
   align-items: center;
-  border-top-color: initial;
-  border-top-style: solid;
-  border-top-width: 5px;
-  border-bottom-color: initial;
-  border-bottom-style: solid;
-  border-bottom-width: 6px;
-  border-left-color: initial;
-  border-left-style: solid;
-  border-left-width: 5px;
   padding-bottom: 48px;
   padding-top: -11px;
   margin-top: -44px !important;
