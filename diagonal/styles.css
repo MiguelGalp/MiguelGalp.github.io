@@ -129,6 +129,24 @@ div[id^="page-index"]
     bottom: 10px;
 }
 
+.bg-gray {
+  position: relative;
+  bottom: 2.5px;
+  background: unset;
+  letter-spacing: -1px;
+  text-shadow: 0px 2px currentColor !important;
+}
+
+.bg-brown {
+    position: relative;
+    right: 21px;
+    background: linear-gradient(110deg, #8EACAD 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #BE919C 70%, #9E9BC4 70%) !important;
+    padding-left: 35px;
+    padding-right: 15px !important;
+    padding-bottom: 3px;
+    border-radius: 3px !important;
+}
+
 .super-content {
   position: relative;
   margin-top: 6vh !important;
