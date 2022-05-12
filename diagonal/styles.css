@@ -164,6 +164,7 @@ div[id^="page-index"]
   left: 45%;
   -webkit-font-smoothing: antialiased;
   transform: translate3d(-55%, 0, 0);
+  will-change: transform;
 }
 
 .notion-toggle {
