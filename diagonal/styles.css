@@ -133,7 +133,8 @@ div[id^="page-index"]
   position: relative;
   bottom: 2.5px;
   background: unset !important;
-  letter-spacing: -1px;
+  letter-spacing: -0.1px;
+  color: black !important;
   text-shadow: 0px 1px currentColor !important;
 }
 
