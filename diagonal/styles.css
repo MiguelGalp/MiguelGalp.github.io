@@ -203,7 +203,7 @@ div[id^="page-index"]
 
 div[id^="page-index"]
 .notion-semantic-string {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.1rem !important;
     letter-spacing: 1px !important;
    }
