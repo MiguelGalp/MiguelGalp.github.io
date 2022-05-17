@@ -425,11 +425,10 @@ div[id^="page-index"]
   
   .notion-column {
     padding: 60px !important;
-    margin-left: 54px !important;
   }
     
   .notion-column-list {
-    margin-left: 100px !important;
+    margin-left: 120px !important;
     border: none !important;
   }
     
