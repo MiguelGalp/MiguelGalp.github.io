@@ -378,9 +378,16 @@ div[id^="page-index"] h1 {
     padding: 25px !important;
     margin-top: -3vh !important;
   }
+   
     div[id^="page-index"]
 .notion-header__title-wrapper {
     display: none !important
+    }
+    
+    div[id^="page-index"] 
+ .notion-text {
+    left: 80px;
+    bottom: -20px;
     }
   
   .notion-column {
