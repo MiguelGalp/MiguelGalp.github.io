@@ -329,7 +329,7 @@ p {
     
   div[id^="page-index"]
   .notion-column-list{ 
-    right: 63px !important;
+    right: 25px !important;
     margin-top: 0vh !important;
     }
     .notion-column:nth-of-type(even) {
@@ -346,12 +346,6 @@ p {
 .notion-header__title {
   display: none !important;
   }
-
-div[id^="page-index"] h1 {
-  line-height: 45px;
-  position: relative;
-  top: 2px !important;
-}
     div[id^="page-index"]
 .notion-semantic-string {
     font-weight: 700;
@@ -361,8 +355,8 @@ div[id^="page-index"] h1 {
    
 .notion-collection-list__item-property {
     text-decoration: none;
-    font-size: 7.3rem;
-    font-weight: 900;
+    font-size: 12.3rem;
+    font-weight: 100;
     position: relative;
     left: 30px;
     letter-spacing: -5px;
