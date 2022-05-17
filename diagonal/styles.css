@@ -384,10 +384,16 @@ div[id^="page-index"] h1 {
     display: none !important
     }
     
+    div[id^="page-index"]
+.notion-semantic-string {
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+    }
+    
     div[id^="page-index"] 
  .notion-text {
-    left: 80px;
-    bottom: -20px;
+    left: 100px;
+    bottom: -30px;
     }
   
   .notion-column {
@@ -403,7 +409,7 @@ div[id^="page-index"] h1 {
 .notion-collection-list__item {
   flex-direction: column !important;
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 2px !important;
   background: none !important;
   display: block !important;
   width: 65% !important;
@@ -413,14 +419,14 @@ div[id^="page-index"] h1 {
 
 .notion-collection-list__item-property 
 { 
-  font-size: 12.5rem !important;
-  font-weight: 700 !important;
+  font-size: 26.5rem !important;
+  font-weight: 500 !important;
   padding: 0px !important;
-  margin-top: -22px !important;
+  margin-top: -24px !important;
   margin-bottom: 24px !important;
   z-index: -1 !important;
   text-decoration: none !important;
-  letter-spacing: -8px !important;
+  letter-spacing: -1px !important;
 }
 
  .notion-property__title {
