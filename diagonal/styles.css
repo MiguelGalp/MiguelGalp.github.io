@@ -394,7 +394,7 @@ div[id^="page-index"] h1 {
  .notion-text {
     left: 110px !important;
     bottom: -30px !important;
-     transform: scale3d(0.7, 0.7, 0.7);
+     transform: scale3d(0.5, 0.5, 0.5);
     }
   
   .notion-column {
