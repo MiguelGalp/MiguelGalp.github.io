@@ -392,15 +392,15 @@ div[id^="page-index"] h1 {
     
     div[id^="page-index"] 
  .notion-text {
-    left: 80px !important;
-    bottom: -30px !important;
+    left: 75px !important;
+    bottom: -50px !important;
      transform: scale3d(0.6, 0.6, 0.6);
     }
     .bg-gray {
   position: relative;
   bottom: 2.5px;
   background: unset !important;
-  letter-spacing: -0.9px;
+  letter-spacing: -1.9px;
   color: black !important;
   text-shadow: 0px 1px currentColor !important;
   font-weight: 300 !important;
