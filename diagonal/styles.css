@@ -382,21 +382,6 @@ div[id^="page-index"] h1 {
 .notion-header__title-wrapper {
     display: none !important
     }
-    
-div[id^="page-index"]
-.notion-header__title {
-  display: block !important;
-  position: relative;
-  top: -21px !important;
-  left: 107px !important;
-  background: #6c757d;
-  color: #f8f9fa;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  padding: 0px 8px 0px 8px;
-  letter-spacing: 0.6px;
-  opacity: 0.5;
-}
   
   .notion-column {
     padding: 50px !important;
@@ -404,14 +389,9 @@ div[id^="page-index"]
   }
     
   .notion-column-list {
-    margin-left: 40px !important;
+    margin-left: 100px !important;
     border: none !important;
   }
-    
- .notion-collection-list__item:first-child {
-    border: 4px solid black !important;
-    padding: 10px !important;
-}
   
 .notion-collection-list__item {
   flex-direction: column !important;
@@ -460,7 +440,7 @@ div[id^="page-index"]
   max-width: 590px !important;
   min-width: 590px !important;
   left: 90px !important;
-  top: 510px !important;
+  top: 530px !important;
   opacity: 1 !important;
 }
 
