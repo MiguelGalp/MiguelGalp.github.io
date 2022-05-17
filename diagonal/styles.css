@@ -316,10 +316,9 @@ p {
   top: 332px;
   opacity: 1;
 }
-    
+[data-theme="dark"]   
  .notion-column:nth-of-type(even) {
-   
-  bottom: 290;
+  bottom: 290px !important;
   opacity: 1;
 }
 
