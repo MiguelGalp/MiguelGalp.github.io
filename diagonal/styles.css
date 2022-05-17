@@ -422,6 +422,7 @@ div[id^="page-index"]
   }
     
   .notion-column-list {
+    margin-top: -320px !important;
     margin-left: 110px !important;
     border: none !important;
   }
