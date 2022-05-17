@@ -311,16 +311,6 @@ p {
     left: -5px;
     margin-top: 5vh;
   }
-   .notion-column:nth-of-type(odd) {
-   
-  top: 332px;
-  opacity: 1;
-}
-[data-theme="dark"]   
- .notion-column:nth-of-type(even) {
-  bottom: 290px !important;
-  opacity: 1;
-}
 
   div[id^="page-index"]
 .notion-header__title {
