@@ -439,9 +439,15 @@ div[id^="page-index"]
   border-radius: 3px !important;
 }
 
+.notion-collection-list__item-content {
+  justify-content: flex-start !important;
+  position: relative;
+  right: 120px !important;
+}
+
 .notion-collection-list__item-property 
 { 
-  font-size: 19.5rem !important;
+  font-size: 14.5rem !important;
   z-index: -1 !important;
   font-weight: 100 !important;
   text-decoration: none !important;
@@ -458,11 +464,18 @@ div[id^="page-index"]
   position: relative !important;   
   max-width: 590px !important;
   min-width: 590px !important;
-  left: 90px !important;
+  left: 83px !important;
   top: 1000px !important;
   opacity: 1 !important;
 
 }
+    
+  .notion-column:nth-of-type(even) {
+    position: relative !important;
+    max-width: 590px !important;
+    min-width: 590px !important;
+    left: 79px !important;
+    bottom: 590px !important;
   #hola {
     opacity: 0 !important;
   }
