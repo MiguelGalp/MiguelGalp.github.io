@@ -395,6 +395,18 @@ p {
     margin-top: -3vh !important;
   }
     
+  .super-navbar.minimal {
+  height: 52px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 20px -5px;
+  }
+    
+div[id^="page-index"]
+.notion-text {
+  
+left: 312px !important;
+bottom: 58px !important;
+}
+    
 div[id^="page-index"]
 .notion-header__title {
   display: none !important;
@@ -406,14 +418,15 @@ div[id^="page-index"]
 
 .bg-brown {
     position: relative;
-    right: 115px;
-    top: 50px;
+    right: 118px;
+    top: 41px !important;
     background: unset !important;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgb(51, 51, 51) 0px 0px 0px 1.5px;
     padding-left: 35px;
     padding-right: 15px !important;
     padding-bottom: 3px;
-    border-radius: 3px !important;
+    border-radius: 1px !important;
+    font-weight: 500 !important;
 }
   
   .notion-column {
