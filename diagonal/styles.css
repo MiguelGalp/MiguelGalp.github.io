@@ -313,7 +313,13 @@ p {
   }
    .notion-column:nth-of-type(odd) {
    
-  top: 346px;
+  top: 332px;
+  opacity: 1;
+}
+    
+ .notion-column:nth-of-type(even) {
+   
+  bottom: 290;
   opacity: 1;
 }
 
