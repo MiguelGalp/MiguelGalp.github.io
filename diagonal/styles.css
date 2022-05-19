@@ -457,6 +457,10 @@ div[id^="page-index"] h1 {
      width: 80% !important;
      border-radius: 3px !important;
   }
+    
+    .notion-column-list {
+    padding-bottom: 0 !important;
+    }
 
   .notion-column:nth-of-type(odd) {
   position: relative !important;   
