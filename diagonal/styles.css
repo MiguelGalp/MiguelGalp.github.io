@@ -1,5 +1,7 @@
 
     
+
+    
 :root {
   --opacidad: 1;
   --opacidad2: 1;
@@ -304,19 +306,11 @@ p {
 
 /* TABLET ADAPT 1 + LANDSCAPE IPHONE X*/
 
-@media (min-width:481px) and (max-width : 1024px) {
-  .notion-pill {
-    margin: 1px -70px !important;
-    }
-   .notion-collection-list__item-property {
-    bottom: 10px !important;
-    padding: 0 !important
-    }
-    
+@media (min-width:696px) and (max-width : 1024px) {
   
   div[id^="page-index"]
   .notion-column-list{ 
-    left: 50px;
+    left: -5px;
     margin-top: 5vh;
   }
 
@@ -327,12 +321,12 @@ p {
 }
 
 #hola {
-  opacity: 1 !important;
+  opacity: 0 !important;
 }
 }
 
 /* TABLET ADAPT 2*/
-/*
+
 @media (min-width:481px) and (max-width : 695px) {
     
   div[id^="page-index"]
@@ -377,7 +371,7 @@ div[id^="page-index"] h1 {
     color: #212529 !important;
 }
 }
-*/
+
 
 /* MOBILE ADAPT 1 */
 @media (min-width:320px) and (max-width : 480px){
@@ -400,8 +394,8 @@ div[id^="page-index"] h1 {
     
     div[id^="page-index"] 
  .notion-text {
-    left: 78px !important;
-    bottom: -30px !important;
+    left: 75px !important;
+    bottom: -50px !important;
      transform: scale3d(0.6, 0.6, 0.6);
     }
     .bg-gray {
@@ -465,17 +459,13 @@ div[id^="page-index"] h1 {
      width: 80% !important;
      border-radius: 3px !important;
   }
-    
-    .notion-column-list {
-    padding-bottom: 0 !important;
-    }
 
   .notion-column:nth-of-type(odd) {
   position: relative !important;   
   max-width: 590px !important;
   min-width: 590px !important;
   left: 90px !important;
-  top: 555px !important;
+  top: 530px !important;
   opacity: 1 !important;
 }
 
@@ -549,8 +539,8 @@ div[id^="page-index"] h1 {
 [data-theme="light"], :root {
   --opacidad: 1 !important;
   --opacidad2: 1 !important;
-  --arriba: 256px;
-  --abajo: 316px;
+  --arriba: 276px;
+  --abajo: 336px;
   --boton: 7px;
 }
 
@@ -565,15 +555,15 @@ div[id^="page-index"] h1 {
 #hola {
     position: relative;
     display: block !important;
-    transform: scale(0.5);
+    transform: scale(0.6);
   }
   
 
 #hola > p {
-    margin: -1vh auto 0;
+    margin: 1vh auto 0;
     transform: translate3d(-20%, 0, -10%);
     width: 46px;
-    padding-left: 337px;
+    padding-left: 200px;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 1.2px !important;
