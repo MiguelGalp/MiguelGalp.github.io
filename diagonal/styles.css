@@ -553,15 +553,15 @@ div[id^="page-index"] h1 {
 #hola {
     position: relative;
     display: block !important;
-    transform: scale(0.6);
+    transform: scale(0.5);
   }
   
 
 #hola > p {
-    margin: 1vh auto 0;
+    margin: -1vh auto 0;
     transform: translate3d(-20%, 0, -10%);
     width: 46px;
-    padding-left: 200px;
+    padding-left: 337px;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 1.2px !important;
