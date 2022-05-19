@@ -305,10 +305,18 @@ p {
 /* TABLET ADAPT 1 + LANDSCAPE IPHONE X*/
 
 @media (min-width:481px) and (max-width : 1024px) {
+  .notion-pill {
+    margin: 1px 70px !important;
+    }
+   .notion-collection-list__item-property {
+    bottom: 10px !important;
+    padding: 0 !important
+    }
+    
   
   div[id^="page-index"]
   .notion-column-list{ 
-    left: -5px;
+    left: 50px;
     margin-top: 5vh;
   }
 
@@ -319,7 +327,7 @@ p {
 }
 
 #hola {
-  opacity: 0 !important;
+  opacity: 1 !important;
 }
 }
 
