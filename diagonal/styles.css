@@ -326,7 +326,7 @@ p {
 }
 
 /* TABLET ADAPT 2*/
-
+/*
 @media (min-width:481px) and (max-width : 695px) {
     
   div[id^="page-index"]
@@ -335,7 +335,7 @@ p {
     margin-top: 0vh !important;
     }
     .notion-column:nth-of-type(even) {
-    /* width: 100% !important; */
+   
     margin-inline-start: 25px !important;
     }
     .notion-column:nth-of-type(odd) {
@@ -371,7 +371,7 @@ div[id^="page-index"] h1 {
     color: #212529 !important;
 }
 }
-
+*/
 
 /* MOBILE ADAPT 1 */
 @media (min-width:320px) and (max-width : 480px){
