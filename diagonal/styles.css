@@ -304,7 +304,7 @@ p {
 
 /* TABLET ADAPT 1 + LANDSCAPE IPHONE X*/
 
-@media (min-width:696px) and (max-width : 1024px) {
+@media (min-width:481px) and (max-width : 1024px) {
   
   div[id^="page-index"]
   .notion-column-list{ 
@@ -324,7 +324,7 @@ p {
 }
 
 /* TABLET ADAPT 2*/
-
+/*
 @media (min-width:481px) and (max-width : 695px) {
     
   div[id^="page-index"]
@@ -369,7 +369,7 @@ div[id^="page-index"] h1 {
     color: #212529 !important;
 }
 }
-
+*/
 
 /* MOBILE ADAPT 1 */
 @media (min-width:320px) and (max-width : 480px){
