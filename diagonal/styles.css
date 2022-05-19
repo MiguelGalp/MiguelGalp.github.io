@@ -223,7 +223,8 @@ div[id^="page-index"]
 .notion-collection-list__item-property {
     text-decoration: none;
     font-size: 13.8rem;
-    font-weight: 500;
+    opacity: 0.7;
+    font-weight: 900;
     position: relative;
     left: 30px;
     letter-spacing: -5px;
