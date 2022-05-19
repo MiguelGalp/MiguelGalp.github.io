@@ -539,8 +539,8 @@ div[id^="page-index"] h1 {
 [data-theme="light"], :root {
   --opacidad: 1 !important;
   --opacidad2: 1 !important;
-  --arriba: 276px;
-  --abajo: 336px;
+  --arriba: 256px;
+  --abajo: 316px;
   --boton: 7px;
 }
 
