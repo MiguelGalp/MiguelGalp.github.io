@@ -2,6 +2,6 @@
 {
 font-family: pirates;
 src: url("diagonal/Pirates-Blackbeard.otf");
-src: url(diagonal/Pirates-Blackbeard.ttf) format("truetype");
+src: url("diagonal/Pirates-Blackbeard.ttf") format("truetype");
 font-weight: normal; font-style: normal;
 }
